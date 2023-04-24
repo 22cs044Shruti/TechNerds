@@ -12,6 +12,7 @@ char AdharNum[12],MobileNumb[10],Pancard_Num[10];
     void Deposit();
     void To_Withdrawl();
 
+
     int acc_numb();
 };
 long long int AccNum;

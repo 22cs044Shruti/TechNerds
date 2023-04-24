@@ -4,16 +4,12 @@
 using namespace std;
 class Bank_Account{
 public:
-string Birthdate,Address,gender,status,Marital_Status,Email_add,Category,Qualification,Occupation;
+string Birthdate,Address,gender,status,Email_add,Qualification,Occupation;
 int Age;
-//long int First_deposit_money,Current_Deposit_money,Withdrawl_money,Bank_balance=0;
 char AdharNum[12],MobileNumb[10],Pancard_Num[10];
     void To_create_acc();
     void Deposit();
     void To_Withdrawl();
-
-
-    int acc_numb();
 };
 long long int AccNum;
 string NameAccHolder,AccType;
@@ -34,16 +30,12 @@ cout<<"Age: ";
 cin>>Age;
 cout<<"Gender: ";
 cin>>gender;
-cout<<"Category: ";
-cin>>Category;
 cout<<"Status(NRI/INDIAN): ";
 cin>>status;
 cout<<"Address: ";
 cin>>Address;
 cout<<"Qualification: ";
 cin>>Qualification;
-cout<<"Marital Status: ";
-cin>>Marital_Status;
 cout<<"Email address: ";
 cin>>Email_add;
 cout<<"Aadhaar Number: ";

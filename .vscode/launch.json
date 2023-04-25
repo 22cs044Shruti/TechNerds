@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "g:/TechNerds/TechNerds-4",
-      "program": "g:/TechNerds/TechNerds-4/build/Debug/outDebug",
+      "cwd": "g:/TechNerds/TechNerds-1",
+      "program": "g:/TechNerds/TechNerds-1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

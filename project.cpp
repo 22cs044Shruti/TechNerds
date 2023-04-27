@@ -4,6 +4,7 @@
 #include <ctime>
 #include <cstdlib>
 using namespace std;
+
 class Bank_Account{
 public:
 string Birthdate,Address,gender,status,Email_add,Qualification,Occupation;

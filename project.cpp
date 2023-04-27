@@ -39,7 +39,7 @@ default:
     break;
     }
 if(n==1 || n==2){
- cout<<"Name of account holder: ";
+ cout<<"Name of account holder ( FIRSTNAME MIDDLENAME LASTNAME ):  ";
 fflush(stdin);
 getline(cin,NameAccHolder);
 cout<<"Date of birth (DD/MM/YYYY): ";

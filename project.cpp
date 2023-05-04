@@ -4,7 +4,6 @@
 #include <ctime>
 #include <cstdlib>
 using namespace std;
-
 class Bank_Account{
 public:
 string Birthdate,Address,gender,status,Email_add,Qualification,Occupation;
@@ -29,17 +28,19 @@ cin>>n;
 switch(n)
 {
 case 1:
-    cout<<"Creating Saving Account..."<<endl;;
+    cout<<"Creating Saving Account..."<<endl;
+    AccType="Saving Account";
     break;
 case 2:
-    cout<<"Creating Current Account..."<<endl;;
+    cout<<"Creating Current Account..."<<endl;
+    AccType="Current Account";
     break;
 default:
-    cout<<"Account type is not valid"<<endl;;
+    cout<<"Account type is not valid"<<endl;
     break;
     }
 if(n==1 || n==2){
- cout<<"Name of account holder ( FIRSTNAME MIDDLENAME LASTNAME ):  ";
+ cout<<"Name of account holder: ";
 fflush(stdin);
 getline(cin,NameAccHolder);
 cout<<"Date of birth (DD/MM/YYYY): ";
